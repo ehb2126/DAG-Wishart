@@ -36,6 +36,12 @@ pdflatex -interaction=nonstopmode -halt-on-error High_dimensional_Bayesian_DAG_v
 
 A standard TeX Live installation with TikZ/PGF is sufficient.
 
+## arXiv submission
+
+Upload `arxiv/High_dimensional_Bayesian_DAG_v6_2_arXiv_source.zip` directly
+to arXiv. The archive places the main TeX file at its root and preserves the
+`figures/` subdirectory expected by the `\includegraphics` commands.
+
 ## Validate
 
 From `paper/v6.2/validation/`, run:
@@ -46,4 +52,3 @@ python validate_v6_2.py
 
 The script requires Python and NumPy. Recorded results are in
 `Validation_Results_v6_2.md`.
-
