@@ -39,8 +39,9 @@ A standard TeX Live installation with TikZ/PGF is sufficient.
 ## arXiv submission
 
 Upload `arxiv/High_dimensional_Bayesian_DAG_v6_2_arXiv_source.zip` directly
-to arXiv. The archive places the main TeX file at its root and preserves the
-`figures/` subdirectory expected by the `\includegraphics` commands.
+to arXiv. For maximum compatibility with arXiv's source processor, the archive
+is flat: the main TeX file and both required PDF figures are at its root, and
+the two `\includegraphics` commands in this submission copy use bare filenames.
 
 ## Validate
 
